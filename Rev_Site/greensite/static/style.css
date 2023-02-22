@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+}
+input[type=submit]{
+    width: 20%;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 20px;
+    position:absolute;
+    left: 40%;
+    top: 90%;
+    background-color: white
+}
+
+
+input[type=submit]:hover{
+    width: 20%;
+    height: 40px;
+    font-size: 30px;
+    border-style:solid;
+    border-radius: 20px;
+    position:absolute;
+    left: 40%;
+    top: 90%;
+    background-color: gray
+}
+
+input[type=text]{
+    width: 50%;
+    height: 40px;
+    font-size: 25px;
+    border-color: black;
+    border-style:solid;
+    border-radius: 20px;
+    padding: 2px;
+    position:absolute;
+    left: 25%;
+    top: 80%;
+}
+label{
+    text-align: center;
+    outline:2px solid black;
+}
+
+.rev_mark{
+    font-size: 20px;
+    right: 50%;
+    bottom: 55%;
+    transform: translate(50%,50%);
+    position: absolute;
+    max-width:720px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input id="text_reviews" type="text" name="text_reviews" value="{{ reviews }}">
+    <input type="submit" value="Submit">
+    </form>
+    <form method="POST" action="/get_reviews">
+        <label class = "rev_mark"> {{ reviews_2 }} </label>
+    </form>
+
+</form>
+</body>
+</html>
